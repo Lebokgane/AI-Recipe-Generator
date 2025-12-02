@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Recipe Generator</title>
+</head>
+<body>
+     <div class="container">
+      <header>
+        <h1>AI Recipe Generator</h1>
+      </header>
+
+      <main>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="What ingredient do you want to cook today?"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Eggs, Beef mince or Pasta</div>
+        </div>
+        <div class="recipe hidden" id="recipe"></div>
+      </main>
+
+      <footer>
+ <footer> 
+    This AI project was coded by 
+    <a href="https://github.com/Lebokgane" target="_blank">Lebokgane Hlungwane,</a>
+    is
+    <a 
+    href="" target="_blank"> open-sourced on Github, </a
+    >
+    and is <a href="" target="_blank"> hosted on Netlify.</a>
+ </footer>
+      </footer>
+    </div>
+
+    <script src="src/script.js"></script> 
+</body>
+</html>
